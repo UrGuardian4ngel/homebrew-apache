@@ -15,8 +15,8 @@ class ModFastcgi < Formula
   homepage "http://www.fastcgi.com/"
   # Upstream website seems completely dead.
   # url "http://www.fastcgi.com/dist/mod_fastcgi-2.4.6.tar.gz"
-  url "https://dl.bintray.com/homebrew/mirror/mod_fastcgi-2.4.6.tar.gz"
-  sha256 "a5a887eecc8fe13e4cb1cab4d140188a3d2b5e6f337f8a1cce88ca441ddbe689"
+  url "https://github.com/ByteInternet/libapache-mod-fastcgi/archive/upstream/2.4.7_0910052141.tar.gz"
+  sha256 "5d42c63e18c78c700982445464446ee22d3185bc0e369d67aa392855af404ab4"
 
   option "with-homebrew-httpd22", "Use Homebrew Apache httpd 2.2"
   option "with-homebrew-httpd24", "Use Homebrew Apache httpd 2.4"
